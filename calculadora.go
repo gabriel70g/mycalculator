@@ -46,9 +46,9 @@ func (c calc) operate(input string, operation string) (int, error) {
 
 func main() {
 	fmt.Println("Enter your input")
-	input := readInput()
+	input := ReadInput()
 	fmt.Println("Enter your operation")
-	operator := readInput()
+	operator := ReadInput()
 	processResult(input, operator)
 
 }
